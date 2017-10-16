@@ -6,9 +6,28 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
+  /* background: rgb(0, 181, 40); For browsers that do not support gradients */
+  /*background: -webkit-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53)); For Safari 5.1 to 6.0 */
+  /*background: -o-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53)); For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53)); For Firefox 3.6 to 15 */
+  /*background: linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53)); Standard syntax */
+
+
 nav .brand-logo {
-  color: #444;
+  /*color: #444;*/
+
+  /*background: linear-gradient(rgb(94, 226, 14), rgb(5, 152, 7));*/
+}
+
+nav {
+  /*background: rgb(0, 181, 40);*/
+  /*background: -webkit-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53));*/
+  /*background: -o-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53));*/
+  /*background: -moz-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53));*/
+  /*background: linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53));*/
+
+
+
 }
 
 p {
@@ -54,4 +73,10 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+
+.profile {
+  margin:25px;
+  width: 70%;
 }
