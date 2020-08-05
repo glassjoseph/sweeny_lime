@@ -6,28 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-  /* background: rgb(0, 181, 40); For browsers that do not support gradients */
-  /*background: -webkit-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53)); For Safari 5.1 to 6.0 */
-  /*background: -o-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53)); For Opera 11.1 to 12.0 */
-  /*background: -moz-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53)); For Firefox 3.6 to 15 */
-  /*background: linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53)); Standard syntax */
-
-
-nav .brand-logo {
-  /*color: #444;*/
-
-  /*background: linear-gradient(rgb(94, 226, 14), rgb(5, 152, 7));*/
-}
-
-nav {
-  /*background: rgb(0, 181, 40);*/
-  /*background: -webkit-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53));*/
-  /*background: -o-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53));*/
-  /*background: -moz-linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53));*/
-  /*background: linear-gradient(rgb(97, 236, 22), rgb(1, 157, 53));*/
-
-}
-
 p {
   line-height: 2rem;
 }
@@ -42,9 +20,10 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -53,7 +32,6 @@ p {
   }
   #index-banner .section {
     top: 10%;
-    t
   }
 }
 
@@ -63,17 +41,32 @@ p {
   }
 }
 
-.icon-block {
-  margin-left: 20px;
+ul {
+  list-style-type: disc;
 }
-.icon-block .material-icons {
-  font-size: inherit;
+
+ul.light > li {
+  list-style-type: disc;
 }
 
 footer.page-footer {
   margin: 0;
 }
 
+.nav-wrapper {
+  font-size: 18px;
+}
+.nav-wrapper > ul > li> a {
+  font-size: 18px;
+}
+
+.icon-block {
+  margin-left: 20px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
 
 .profile {
   margin:25px;
@@ -81,25 +74,15 @@ footer.page-footer {
   border-radius: 200px;
 }
 
+.map {
+  height: 300px;
+  width: 100%;
+  margin: 0px 100px 0px 0px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
 .truck {
   margin: 25px;
   border-radius: 10px;}
-}
-
-ul {
-  list-style-type: disc;
-}
-
-
-ul.light > li {
-  list-style-type: disc;
-}
-
-.map {
-  height: 300px;
-   width: 100%;
-
-   margin: 0px 250px 0px 0px;
-   border-radius: 10px;
-
 }
